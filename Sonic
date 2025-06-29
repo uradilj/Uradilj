@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>uradiljplaygame.com — Бесплатные игры</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #f39c12;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .game-card {
+      background: #222;
+      border-radius: 8px;
+      width: 280px;
+      padding: 15px;
+      box-shadow: 0 0 10px #f39c12;
+      transition: transform 0.3s;
+    }
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .game-card h3 {
+      margin: 10px 0 5px;
+    }
+    .game-card p {
+      font-size: 14px;
+      color: #ccc;
+      height: 60px;
+      overflow: hidden;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #f39c12;
+      color: #121212;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background: #d17e00;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1e1e1e;
+      color: #aaa;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>uradiljplaygame.com</header>
+
+  <section class="game-list">
+    <div class="game-card">
+      <img src="https://via.placeholder.com/280x160?text=Игра+1" alt="Игра 1" />
+      <h3>Игра 1</h3>
+      <p>Захватывающий бесплатный экшен с интересным сюжетом и крутыми миссиями.</p>
+      <a href="#" class="download-btn">Скачать</a>
+    </div>
+    <div class="game-card">
+      <img src="https://via.placeholder.com/280x160?text=Игра+2" alt="Игра 2" />
+      <h3>Игра 2</h3>
+      <p>Увлекательная головоломка для тренировки мозга и логики.</p>
+      <a href="#" class="download-btn">Скачать</a>
+    </div>
+    <div class="game-card">
+      <img src="https://via.placeholder.com/280x160?text=Игра+3" alt="Игра 3" />
+      <h3>Игра 3</h3>
+      <p>Стратегия с множеством уровней и режимов для любителей планирования.</p>
+      <a href="#" class="download-btn">Скачать</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 uradiljplaygame.com — Бесплатные игры для всех
+  </footer>
+</body><div class="game-card">
+  <img src="https://via.placeholder.com/280x160?text=Игра+4" alt="Игра 4" />
+  <h3>Игра 4</h3>
+  <p>Описание новой игры. Весёлый платформер с прыжками и приключениями.</p>
+  <a href="ссылка_на_скачивание.zip" class="download-btn">Скачать</a>
+</div>
+</html>
